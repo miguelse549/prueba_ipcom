@@ -1,34 +1,3 @@
-# prueba_ipcom
+Para el llamado del servicio se hizo uso de axios, para el manejo de los datos se utilizo el store de vue
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+El proyecto esta desplegado en la pagina https://jovial-newton-8c05a5.netlify.app/#/ donde se puede verificar su funcionamiento. 
