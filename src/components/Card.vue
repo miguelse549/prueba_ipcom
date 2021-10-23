@@ -69,8 +69,8 @@ export default {
     }
 
     this.getData();
-    console.log("object");
-    console.log(this.randomData);
+    //console.log("object");
+    //console.log(this.randomData);
   },
 };
 </script>
@@ -80,6 +80,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   height: calc(100vh - 160px);
+  
 }
 .card {
   align-items: center;
@@ -107,4 +108,5 @@ img {
   height: 240px;
   margin: 0 10px;
 }
+
 </style>

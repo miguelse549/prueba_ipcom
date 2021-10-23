@@ -28,7 +28,7 @@ export default new Vuex.Store({
     },
 
     changeIsHome(state, value) {
-      console.log('change home', value)
+      //console.log('change home', value)
       state.isHome = value
     },
 
@@ -39,10 +39,10 @@ export default new Vuex.Store({
     }) {
       try {
         const response = await axios.get('https://www.scorebat.com/video-api/v1/')
-        console.log(response.data)
+       // console.log(response.data)
         commit('updateData', response.data);
       } catch (error) {
-        console.log(error)
+       // console.log(error)
 
       }
     }

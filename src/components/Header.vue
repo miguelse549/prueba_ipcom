@@ -43,4 +43,8 @@ nav ul li {
   display: inline;
   margin-right: 20px;
 }
+
+nav ul li a:hover {
+  background-color: brown;
+}
 </style>

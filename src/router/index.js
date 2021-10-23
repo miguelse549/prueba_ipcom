@@ -21,7 +21,7 @@ const routes = [
 
   {
     path: "/ligas/:id",
-    name: "Ligas",
+    name: "LigasDetalles",
     component: () =>
       import("../components/Card.vue"),
   },
